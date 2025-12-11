@@ -2,6 +2,8 @@ package com.eudes.estudos_java_streams.models;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
 
+import java.time.LocalDate;
+
 public class Episodios {
     @JsonAlias("numero")
     private Integer numeroEpisodio;
@@ -9,6 +11,8 @@ public class Episodios {
     private String tituloEpisodio;
     @JsonAlias("duracao_minutos")
     private String duracaoMinutosEpisido;
+    @JsonAlias("data_lancamento")
+    private LocalDate dataLancamento;
 
     public Integer getNumeroEpisodio() {
         return numeroEpisodio;
@@ -40,6 +44,7 @@ public class Episodios {
                 "numeroEpisodio=" + numeroEpisodio +
                 ", tituloEpisodio='" + tituloEpisodio + '\'' +
                 ", duracaoMinutosEpisido='" + duracaoMinutosEpisido + '\'' +
+                ", dataLancamento=" + dataLancamento +
                 '}';
     }
 }
