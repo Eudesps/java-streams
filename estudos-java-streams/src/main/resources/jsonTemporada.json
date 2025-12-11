@@ -5,47 +5,56 @@
     {
       "numero": 1,
       "titulo": "Welcome to the Playground",
-      "duracao_minutos": 43
+      "duracao_minutos": 43,
+      "data_lancamento": "2021-11-06"
     },
     {
       "numero": 2,
       "titulo": "Some Mysteries Are Better Left Unsolved",
-      "duracao_minutos": 41
+      "duracao_minutos": 41,
+      "data_lancamento": "2021-11-07"
     },
     {
       "numero": 3,
       "titulo": "The Base Violence Necessary for Change",
-      "duracao_minutos": 44
+      "duracao_minutos": 44,
+      "data_lancamento": "2021-11-08"
     },
     {
       "numero": 4,
       "titulo": "Happy Progress Day!",
-      "duracao_minutos": 39
+      "duracao_minutos": 39,
+      "data_lancamento": "2021-11-09"
     },
     {
       "numero": 5,
       "titulo": "Everybody Wants to Be My Enemy",
-      "duracao_minutos": 41
+      "duracao_minutos": 41,
+      "data_lancamento": "2021-11-10"
     },
     {
       "numero": 6,
       "titulo": "When These Walls Come Tumbling Down",
-      "duracao_minutos": 43
+      "duracao_minutos": 43,
+      "data_lancamento": "2021-11-11"
     },
     {
       "numero": 7,
       "titulo": "The Boy Savior",
-      "duracao_minutos": 40
+      "duracao_minutos": 40,
+      "data_lancamento": "2021-11-12"
     },
     {
       "numero": 8,
       "titulo": "Oil and Water",
-      "duracao_minutos": 38
+      "duracao_minutos": 38,
+      "data_lancamento": "2021-11-13"
     },
     {
       "numero": 9,
       "titulo": "The Monster You Created",
-      "duracao_minutos": 43
+      "duracao_minutos": 43,
+      "data_lancamento": "2021-11-14"
     }
   ]
 }
