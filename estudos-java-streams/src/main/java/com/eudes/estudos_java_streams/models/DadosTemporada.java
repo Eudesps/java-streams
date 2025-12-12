@@ -6,6 +6,6 @@ import java.time.LocalDate;
 import java.util.List;
 
 public record DadosTemporada(@JsonAlias("temporada") Integer numeroTemporada,
-                             @JsonAlias("episodios") List<Episodios> episodios,
+                             @JsonAlias("episodios") List<DadosEpisodios> episodios,
                              @JsonAlias("data_lancamento") String dataLancamento) {
 }

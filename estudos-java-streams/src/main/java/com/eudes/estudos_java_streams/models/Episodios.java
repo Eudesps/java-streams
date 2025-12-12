@@ -5,13 +5,9 @@ import com.fasterxml.jackson.annotation.JsonAlias;
 import java.time.LocalDate;
 
 public class Episodios {
-    @JsonAlias("numero")
     private Integer numeroEpisodio;
-    @JsonAlias("titulo")
     private String tituloEpisodio;
-    @JsonAlias("duracao_minutos")
     private String duracaoMinutosEpisido;
-    @JsonAlias("data_lancamento")
     private LocalDate dataLancamento;
 
     public Integer getNumeroEpisodio() {
@@ -36,6 +32,14 @@ public class Episodios {
 
     public void setDuracaoMinutosEpisido(String duracaoMinutosEpisido) {
         this.duracaoMinutosEpisido = duracaoMinutosEpisido;
+    }
+
+    public LocalDate getDataLancamento() {
+        return dataLancamento;
+    }
+
+    public void setDataLancamento(LocalDate dataLancamento) {
+        this.dataLancamento = dataLancamento;
     }
 
     @Override
