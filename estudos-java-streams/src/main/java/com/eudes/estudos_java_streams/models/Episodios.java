@@ -1,7 +1,5 @@
 package com.eudes.estudos_java_streams.models;
 
-import com.fasterxml.jackson.annotation.JsonAlias;
-
 import java.time.LocalDate;
 
 public class Episodios {

@@ -1,14 +1,12 @@
 package com.eudes.estudos_java_streams;
 
 import com.eudes.estudos_java_streams.models.DadosTemporada;
-import com.eudes.estudos_java_streams.models.Episodios;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.io.File;
-import java.util.List;
 
 @SpringBootApplication
 public class EstudosJavaStreamsApplication implements CommandLineRunner {

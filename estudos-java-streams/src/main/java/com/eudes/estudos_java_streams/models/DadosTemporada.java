@@ -2,7 +2,6 @@ package com.eudes.estudos_java_streams.models;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
 
-import java.time.LocalDate;
 import java.util.List;
 
 public record DadosTemporada(@JsonAlias("temporada") Integer numeroTemporada,
