@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatter;
 
 public class Teste {
     public static void main(String[] args) {
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MMMM/yyyy");
         LocalDate hoje = LocalDate.now();
 
         LocalDate aniversarioEudes = LocalDate.of(2002, 8,29);
